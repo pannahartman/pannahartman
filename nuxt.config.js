@@ -42,5 +42,8 @@ module.exports = {
   css: [
     'bulma/css/bulma.css',
     '~/assets/main.css'
-  ]
+  ],
+  router: {
+    base: '/my-project/'
+  }
 }

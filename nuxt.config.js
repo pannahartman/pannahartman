@@ -44,6 +44,6 @@ module.exports = {
     '~/assets/main.css'
   ],
   router: {
-    base: '/'
+    base: '/pannahartman/'
   }
 }

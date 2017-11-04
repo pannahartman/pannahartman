@@ -1,52 +1,59 @@
 <template>
-  <div>
-    <nuxt/>
-  </div>
+<div>
+  <section class="hero is-info is-bold">
+    <div class="hero-head">
+      <div class="container">
+        <nav class="navbar">
+          <div class="navbar-brand">
+            <nuxt-link class="navbar-item" to="/">Panna Hartman</nuxt-link>
+            <div class="navbar-burger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="navbar-menu">
+            <div class="navbar-start">
+              <nuxt-link class="navbar-item" to="/blog">Blog</nuxt-link>
+              <nuxt-link class="navbar-item" to="/shop">Shop</nuxt-link>
+              <nuxt-link class="navbar-item" to="contact">Contact</nuxt-link>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h1 class="title">
+          The new standard in &lt;insert industry here&gt;
+        </h1>
+        <h2 class="subtitle">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </h2>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <nuxt/>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <p>
+          &copy; Panna Hartman 2017
+        </p>
+      </div>
+    </div>
+  </footer>
+</div>
 </template>
 
-<style>
-html {
-  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: border-box;
-  margin: 0;
-}
-
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
-
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
-
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
+<style scoped>
+section.section {
+  min-height: 60vh;
 }
 </style>

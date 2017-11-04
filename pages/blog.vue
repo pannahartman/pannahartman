@@ -1,14 +1,14 @@
 <template>
   <section>
-    <h2>Panna Hartman</h2>
+    <h2>Blog</h2>
   </section>
 </template>
 
 <script>
 export default {
-  name: 'Index',
+  name: 'Blog',
   data: () => ({
-    title: 'Index'
+    title: 'Blog'
   }),
   head () {
     return {

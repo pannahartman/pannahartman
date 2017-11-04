@@ -44,7 +44,7 @@ module.exports = {
     '~/assets/main.css'
   ],
   router: {
-    base: process.env.DEPLOY ? '/pannahartman/' : '/'
+    base: '/pannahartman/'
     // extendRoutes (routes, resolve) {
     //   routes.forEach((key, route) => {
     //     console.log(key, route)

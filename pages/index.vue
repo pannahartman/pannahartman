@@ -14,6 +14,13 @@ export default {
     return {
       title: this.title
     }
+  },
+  transition (to, from) {
+    console.log(to, from)
+
+    if (to) return 'slide-right'
+
+    return 'slide-left'
   }
 }
 </script>

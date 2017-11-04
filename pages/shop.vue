@@ -14,6 +14,11 @@ export default {
     return {
       title: this.title
     }
+  },
+  transition (to, from) {
+    if (to === 'contact') return 'slide-right'
+
+    return 'slide-left'
   }
 }
 </script>

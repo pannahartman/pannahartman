@@ -7,6 +7,7 @@
 <script>
 export default {
   name: 'Blog',
+  layout: 'blog',
   data: () => ({
     title: 'Blog'
   }),

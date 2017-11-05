@@ -142,7 +142,7 @@ export default {
             <div class="media">
               <div class="media-center">
                 <img
-                  src="//www.radfaces.com/images/avatars/garth-algar.jpg"
+                  src="http://www.radfaces.com/images/avatars/garth-algar.jpg"
                   class="author-image"
                   alt="Placeholder image"
                 >

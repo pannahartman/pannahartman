@@ -44,7 +44,7 @@ module.exports = {
     '~/assets/main.css'
   ],
   router: {
-    base: '/',
+    base: '/pannahartman/',
     linkActiveClass: 'is-active',
     linkExactActiveClass: 'is-active'
   }

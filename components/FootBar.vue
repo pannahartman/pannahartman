@@ -1,15 +1,18 @@
-<template>
-<footer class="footer">
-  <div class="container">
-    <div class="content has-text-centered">
-      <p>&copy; Panna Hartman 2017</p>
-    </div>
-  </div>
-</footer>
-</template>
-
 <script>
 export default {
-  name: 'FootBar'
+  name: 'FootBar',
+  data: () => ({
+    currentYear: new Date().getFullYear()
+  })
 }
 </script>
+
+<template>
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <p>&copy; Panna Hartman {{ currentYear }}</p>
+      </div>
+    </div>
+  </footer>
+</template>

@@ -1,7 +1,7 @@
 {
   "name": "pannahartman",
-  "version": "1.0.0",
-  "description": "Nuxt.js project",
+  "version": "1.1.0",
+  "description": "A Nuxt.js project for Panna Hartman",
   "author": "Nandor Dudas <nandor.dudas@gmail.com>",
   "private": true,
   "scripts": {

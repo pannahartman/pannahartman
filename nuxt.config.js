@@ -1,7 +1,4 @@
 module.exports = {
-  /*
-  ** Headers of the page
-  */
   head: {
     titleTemplate: '%s | Panna Hartman',
     meta: [
@@ -12,17 +9,8 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-  /*
-  ** Customize the progress bar color
-  */
-  loading: false, // { color: '#3B8070' },
-  /*
-  ** Build configuration
-  */
+  loading: false,
   build: {
-    /*
-    ** Run ESLint on save
-    */
     extend (config, ctx) {
       if (ctx.dev && ctx.isClient) {
         config.module.rules.push({
@@ -44,8 +32,6 @@ module.exports = {
     '~/assets/main.css'
   ],
   router: {
-    base: '/pannahartman/',
-    linkActiveClass: 'is-active',
-    linkExactActiveClass: 'is-active'
+    base: '/pannahartman/'
   }
 }

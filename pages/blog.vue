@@ -35,7 +35,7 @@ export default {
             <div class="media">
               <div class="media-center">
                 <img
-                  src="//www.radfaces.com/images/avatars/daria-morgendorffer.jpg"
+                  src="http://www.radfaces.com/images/avatars/daria-morgendorffer.jpg"
                   class="author-image"
                   alt="Placeholder image"
                 >
@@ -83,7 +83,7 @@ export default {
             <div class="media">
               <div class="media-center">
                 <img
-                  src="//www.radfaces.com/images/avatars/skeeter-valentine.jpg"
+                  src="http://www.radfaces.com/images/avatars/skeeter-valentine.jpg"
                   class="author-image"
                   alt="Placeholder image"
                 >

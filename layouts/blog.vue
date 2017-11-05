@@ -2,8 +2,8 @@
 export default {
   name: 'BlogLayout',
   components: {
-    NavBar: () => import('~/components/NavBar').then(m => m.default),
-    FootBar: () => import('~/components/FootBar').then(m => m.default)
+    NavBar: () => import('~/components/NavBar').then(m => m.default || m),
+    FootBar: () => import('~/components/FootBar').then(m => m.default || m)
   }
 }
 </script>

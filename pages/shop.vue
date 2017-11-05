@@ -16,9 +16,13 @@ export default {
     }
   },
   transition (to, from) {
-    if (to === 'contact') return 'slide-right'
+    const pages = ['index', 'blog', 'shop', 'contact']
 
-    return 'slide-left'
+    if (pages.from && pages.to) {
+      if (pages.indexOf(from.name) > pages.indexOf(to.name)) return 'slide-left'
+    }
+
+    return 'slide-right'
   }
 }
 </script>

@@ -15,7 +15,7 @@ module.exports = {
   /*
   ** Customize the progress bar color
   */
-  loading: { color: '#3B8070' },
+  loading: false, // { color: '#3B8070' },
   /*
   ** Build configuration
   */
@@ -44,11 +44,8 @@ module.exports = {
     '~/assets/main.css'
   ],
   router: {
-    base: '/pannahartman/'
-    // extendRoutes (routes, resolve) {
-    //   routes.forEach((key, route) => {
-    //     console.log(key, route)
-    //   })
-    // }
+    base: '/',
+    linkActiveClass: 'is-active',
+    linkExactActiveClass: 'is-active'
   }
 }

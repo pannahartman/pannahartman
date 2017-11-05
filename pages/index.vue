@@ -16,11 +16,13 @@ export default {
     }
   },
   transition (to, from) {
-    console.log(to, from)
+    const pages = ['index', 'blog', 'shop', 'contact']
 
-    if (to) return 'slide-right'
+    if (pages.from && pages.to) {
+      if (pages.indexOf(from.name) > pages.indexOf(to.name)) return 'slide-left'
+    }
 
-    return 'slide-left'
+    return 'slide-right'
   }
 }
 </script>
